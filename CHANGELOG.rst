@@ -1,12 +1,22 @@
 Changelog
 =========
 
+1.3.0
+-------------------
+- Added field "VerificationStatus" to User
+- Client-token endpoint renamed to authentication-token
+
+1.2.1 (2019-01-17)
+------------------
+
+- FIX: Resolved issue with restricted "Accept" & "Content-Type" headers to support only "application/json" or "application/jose+json"
+
 1.2.0 (2018-12-20)
 ------------------
 
 - Restricted “Accept” & “Content-Type” headers to support only “application/json” or “application/jose+json”
 - Related resources “relatedResources” in error representation is added
-- Added Authentication token endpoint 
+- Added Authentication token endpoint
 
 1.1.4 (2018-12-04)
 ------------------
